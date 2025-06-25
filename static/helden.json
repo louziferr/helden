@@ -1,0 +1,64 @@
+{
+  "charaktere": [
+    {
+      "id": 0,
+      "name": "Bruce Wayne",
+      "alias": "Batman",
+      "alter": 38,
+      "wohnort": "Gotham",
+      "beschreibung": "Ein milliardenschwerer Industrieller, der seine Ressourcen nutzt, um als maskierter Verbrechensbekämpfer zu agieren.",
+      "superkraefte": ["Genie-Intellekt", "Meisterdetektiv", "Kampfkünstler", "Hightech-Ausrüstung"],
+      "img": "batman.jpg"
+    },
+    {
+        "id": 1,
+        "img": "superman.png",
+      "name": "Kal-El",
+      "alias": "Superman",
+      "alter": 35,
+      "wohnort": "Metropolis",
+      "beschreibung": "Ein außerirdischer Überlebender des Planeten Krypton, der auf der Erde aufgewachsen ist und seine Kräfte zum Schutz der Menschheit einsetzt.",
+      "superkraefte": ["Übermenschliche Stärke", "Fliegen", "Hitzeblick", "Unverwundbarkeit", "Röntgenblick", "Superschnelligkeit"]
+    },
+    {
+        "id": 2,
+        "img": "joker.jpg",
+      "name": "Unbekannt",
+      "alias": "Joker",
+      "alter": 40,
+      "wohnort": "Gotham",
+      "beschreibung": "Ein psychotischer Superschurke mit einem makabren Sinn für Humor und Batmans Erzfeind.",
+      "superkraefte": ["Genialer Verstand", "Manipulation", "Unberechenbarkeit", "Experte für Chemikalien und Waffen"]
+    },
+    {
+        "id": 3,
+        "img": "harley-quinn.jpg",
+      "name": "Harleen Quinzel",
+      "alias": "Harley Quinn",
+      "alter": 29,
+      "wohnort": "Gotham",
+      "beschreibung": "Ehemalige Psychiaterin, die sich in den Joker verliebte und selbst zur Superschurkin wurde.",
+      "superkraefte": ["Akrobatik", "Psychologische Manipulation", "Waffenkenntnis", "Unberechenbarkeit"]
+    },
+    {
+        "id": 4,
+        "img": "lois-lane.jpg",
+      "name": "Lois Lane",
+      "alias": "Lois Lane",
+      "alter": 32,
+      "wohnort": "Metropolis",
+      "beschreibung": "Eine mutige Investigativjournalistin beim Daily Planet, bekannt für ihre Entschlossenheit und ihre Nähe zu Superman.",
+      "superkraefte": ["Hervorragende Recherche", "Mut", "Rhetorisches Talent", "Verbindungen zu Superman"]
+    },
+    {
+        "id": 5,
+        "img": "lex-luthor.png",
+      "name": "Lex Luthor",
+      "alias": "Lex Luthor",
+      "alter": 45,
+      "wohnort": "Metropolis",
+      "beschreibung": "Ein brillanter, aber machthungriger Geschäftsmann und Wissenschaftler, der Superman als Bedrohung für die Menschheit sieht.",
+      "superkraefte": ["Genius-Level Intelligenz", "Strategie", "Politische Macht", "Technologieentwicklung"]
+    }
+  ]
+}

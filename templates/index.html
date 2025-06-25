@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luzies Website</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <h2>Helden</h2>
+
+    {% for held in helden %}
+    <h3>{{ held['alias'] }}.</h3>
+    {% endfor %}
+  </body>
+</html>

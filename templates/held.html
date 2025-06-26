@@ -2,4 +2,34 @@
 
 <h2>{{ held['alias'] }}</h2>
 
+<div class="helden-infos">
+  <h4>Name</h4>
+  <div class="white-box">
+    <p class="info">{{ held['name'] }}</p>
+  </div>
+</div>
+
+<div class="helden-infos">
+  <div class="alter-wohnort">
+    <div>
+      <h4>Alter</h4>
+      <div class="white-box">
+        <p class="info">{{ held['alter'] }}</p>
+      </div>
+    </div>
+    <div>
+      <h4>Wohnort</h4>
+      <div class="white-box">
+        <p class="info">{{ held['wohnort'] }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="helden-infos">
+  <h4>Beschreibung</h4>
+  <div class="white-box">
+    <p class="info">{{ held['beschreibung'] }}</p>
+  </div>
+</div>
 {% endblock %}

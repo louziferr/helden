@@ -1,12 +1,11 @@
 from flask import Flask, render_template, request
-import json
+import model
 
 # App erstellen
 app = Flask(__name__)
 
 # Daten einlesen
-with open('static/helden.json') as f:
-    helden = json.load(f)['charaktere']
+helden = model.daten_einlesen()
 
 @app.route('/')
 def index():

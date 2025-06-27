@@ -7,9 +7,7 @@
   <div class="white-box">
     <p class="info">{{ held['name'] }}</p>
   </div>
-</div>
 
-<div class="helden-infos">
   <div class="alter-wohnort">
     <div>
       <h4>Alter</h4>
@@ -24,12 +22,21 @@
       </div>
     </div>
   </div>
-</div>
 
-<div class="helden-infos">
   <h4>Beschreibung</h4>
   <div class="white-box">
     <p class="info">{{ held['beschreibung'] }}</p>
+  </div>
+
+  <h4>Superkräfte</h4>
+  <div class="white-box">
+    <ul>
+      {% for kraft in held['superkraefte'] %}
+      <li>
+        <p class="info">{{ kraft }}</p>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
 {% endblock %}
